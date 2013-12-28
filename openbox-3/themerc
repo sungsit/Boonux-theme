@@ -1,0 +1,53 @@
+# Geometry
+padding.width: 5
+padding.height: 5
+border.width: 0
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 10
+
+# Overall styles
+window.*.title.bg: solid flat
+window.*.label.bg: parentrelative
+window.*.handle.bg: solid flat
+window.*.grip.bg: parentrelative
+window.*.button.unpressed.bg: solid flat 
+window.*.button.pressed.bg: solid flat 
+window.*.button.toggled.bg: solid flat 
+window.*.button.disbled.bg: solid flat 
+window.*.button.hover.bg: solid flat 
+window.*.button.toggled.hover.bg: solid flat 
+
+# Active windows
+window.active.title.bg.color: #222222
+window.active.label.text.color: #dddddd
+window.active.handle.bg.color: #222222
+window.active.button.*.bg.color: #dddddd
+window.active.button.hover.bg.color: #ffffff
+window.active.button.toggled.hover.bg.color: #ffffff
+window.active.button.*.image.color: #555555
+window.active.button.hover.image.color: #222222
+
+# Inactive windows
+window.inactive.title.bg.color: #dddddd
+window.inactive.label.text.color: #ffffff
+window.inactive.handle.bg.color: #dddddd
+window.inactive.button.*.bg.color: #ffffff
+window.inactive.button.*.image.color: #dddddd
+
+# Text justification
+window.label.text.justify: left
+#menu.title.text.justify: left
+
+# On-screen-dialogs, such as the focus cycling (Alt-Tab) dialog.
+#osd.border.width: 1
+#osd.border.color: #cccccc
+osd.bg: solid flat
+osd.bg.color: #ffffff
+osd.label.bg: solid flat
+osd.label.bg.color: #ffffff
+osd.label.text.color: #333333
+osd.hilight.bg: solid flat
+osd.hilight.bg.color: #000000
+osd.unhilight.bg: solid flat
+osd.unhilight.bg.color: #dddddd
